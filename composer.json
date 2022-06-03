@@ -1,0 +1,21 @@
+{
+    "name": "audentio/timer",
+    "description": "A timer utility class",
+    "type": "library",
+    "license": "MIT",
+    "homepage": "https://www.audent.io",
+    "authors": [
+        {
+            "name": "Jake Booher",
+            "email": "jakeb@audentio.com"
+        }
+    ],
+    "require": {
+        "php": "^7.4|^8.0"
+    },
+    "autoload": {
+        "psr-4": {
+            "Audentio\\Timer\\": "src/"
+        }
+    }
+}
